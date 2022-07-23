@@ -1,0 +1,49 @@
+form{
+
+    color: black;
+    width: 50%;
+    background-color: orange;
+
+}
+.navbar-orange{
+    background-color: orange;
+}
+
+
+.full-width{
+
+    min-height: 85vh;
+}
+textarea{
+    height: 200px;
+}
+
+
+/*   for Landscape Phones less than 576px Size*/
+@media (min-width: 576px) { 
+    .full-width{
+        min-height: 85vh;
+        margin-top: 10px;   
+    }
+
+
+ }
+/* for Large Media Tablets */
+ @media (min-width: 768px){
+    .full-width{
+        min-height: 85vh;
+        margin-top: 10px;
+        
+    }
+    form{
+        height: 100%;
+    }
+
+
+ }
+ /* for Large Devices and Desktops */
+@media (min-width: 992px) {  
+    .full-width{
+        min-height: 85vh;
+    }
+}
